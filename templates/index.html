@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DWLR Monitoring System</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" />
+  </head>
+  <body>
+    <header>
+      <h1>DWLR Monitoring System</h1>
+    </header>
+
+    <section class="content">
+      <h2 class="mh">Digital Water Level Recorders</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>DWLR ID</th>
+            <th>Location</th>
+            <th>Latest Reading</th>
+            <th>Battery Level</th>
+            <th>Status</th>
+            <th>Old Data</th>
+            <!-- New column -->
+          </tr>
+        </thead>
+        <tbody>
+          {% for dwlr in dwlrs %}
+          <tr>
+            <td>{{ dwlr['dwlr_id'] }}</td>
+            <td>{{ dwlr['location'] }}</td>
+            <td>
+              {% if dwlr['readings'] and dwlr['readings'][-1]['level'] %} {{
+              dwlr['readings'][-1]['level'] }} (at {{
+              dwlr['readings'][-1]['time'] }}) {% else %} No data {% endif %}
+            </td>
+            <td>{{ dwlr['battery_level'] }}%</td>
+            <td>
+              {% if dwlr['battery_level'] < 20 %}
+              <span class="low-battery">Low Battery</span>
+              {% elif dwlr['status'] == 'Anomalous Data' %}
+              <span class="anomalous">Anomalous Data</span>
+              {% elif dwlr['status'] == 'Faulty' %}
+              <span class="faulty">Faulty</span>
+              {% else %}<span class="normal">Normal</span>{% endif %}
+            </td>
+            <td>
+              <a
+                href="/dwlr/{{ dwlr['dwlr_id'] }}/old-data"
+                class="old-data-link"
+                >Click here</a
+              >
+              <!-- Link to old data page -->
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </section>
+  </body>
+</html>

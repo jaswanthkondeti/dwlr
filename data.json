@@ -1,0 +1,242 @@
+[
+  {
+    "dwlr_id": "DWLR001",
+    "location": "Rushikonda Beach",
+    "readings": [
+      { "time": "2024-09-10T06:00:00", "level": 5.2 },
+      { "time": "2024-09-10T12:00:00", "level": 5.3 },
+      { "time": "2024-09-10T18:00:00", "level": 5.1 },
+      { "time": "2024-09-10T00:00:00", "level": 5.0 }
+    ],
+    "battery_level": 90,
+    "status": "Normal"
+  },
+  {
+    "dwlr_id": "DWLR002",
+    "location": "Kailasagiri",
+    "readings": [
+      { "time": "2024-09-10T06:00:00", "level": 8.1 },
+      { "time": "2024-09-10T12:00:00", "level": 8.0 },
+      { "time": "2024-09-10T18:00:00", "level": 7.9 },
+      { "time": "2024-09-10T00:00:00", "level": 8.2 }
+    ],
+    "battery_level": 75,
+    "status": "Missing Data"
+  },
+  {
+    "dwlr_id": "DWLR003",
+    "location": "Yarada Beach",
+    "readings": [
+      { "time": "2024-09-10T06:00:00", "level": 3.0 },
+      { "time": "2024-09-10T12:00:00", "level": 25.5 },
+      { "time": "2024-09-10T18:00:00", "level": 2.8 },
+      { "time": "2024-09-10T00:00:00", "level": 4.0 }
+    ],
+    "battery_level": 65,
+    "status": "Anomalous Data"
+  },
+  {
+    "dwlr_id": "DWLR004",
+    "location": "Simhachalam",
+    "readings": [
+      { "time": "2024-09-10T06:00:00", "level": 10.0 },
+      { "time": "2024-09-10T12:00:00", "level": 10.1 },
+      { "time": "2024-09-10T18:00:00", "level": 10.0 },
+      { "time": "2024-09-10T00:00:00", "level": 10.2 }
+    ],
+    "battery_level": 20,
+    "status": "Low Battery"
+  },
+  {
+    "dwlr_id": "DWLR005",
+    "location": "Dolphin's Nose",
+    "readings": [
+      { "time": "2024-09-10T06:00:00", "level": null },
+      { "time": "2024-09-10T12:00:00", "level": "NaN" },
+      { "time": "2024-09-10T18:00:00", "level": 14.5 },
+      { "time": "2024-09-10T00:00:00", "level": 13.0 }
+    ],
+    "battery_level": 55,
+    "status": "Faulty"
+  },
+  {
+    "dwlr_id": "DWLR006",
+    "location": "Thotlakonda",
+    "readings": [
+      { "time": "2024-09-10T06:00:00", "level": 12.0 },
+      { "time": "2024-09-10T12:00:00", "level": 12.1 },
+      { "time": "2024-09-10T18:00:00", "level": 12.2 },
+      { "time": "2024-09-10T00:00:00", "level": 12.3 }
+    ],
+    "battery_level": 85,
+    "status": "Normal"
+  },
+  {
+    "dwlr_id": "DWLR007",
+    "location": "Bheemili Beach",
+    "readings": [
+      { "time": "2024-09-10T06:00:00", "level": 9.3 },
+      { "time": "2024-09-10T12:00:00", "level": 9.2 },
+      { "time": "2024-09-10T18:00:00", "level": 9.1 },
+      { "time": "2024-09-10T00:00:00", "level": 9.4 }
+    ],
+    "battery_level": 80,
+    "status": "Normal"
+  },
+  {
+    "dwlr_id": "DWLR008",
+    "location": "VUDA Park",
+    "readings": [
+      { "time": "2024-09-10T06:00:00", "level": 4.5 },
+      { "time": "2024-09-10T12:00:00", "level": 4.6 },
+      { "time": "2024-09-10T18:00:00", "level": 4.7 },
+      { "time": "2024-09-10T00:00:00", "level": 4.8 }
+    ],
+    "battery_level": 95,
+    "status": "Normal"
+  },
+  {
+    "dwlr_id": "DWLR009",
+    "location": "Visakha Museum",
+    "readings": [
+      { "time": "2024-09-10T06:00:00", "level": 2.5 },
+      { "time": "2024-09-10T12:00:00", "level": 2.0 },
+      { "time": "2024-09-10T18:00:00", "level": 2.1 },
+      { "time": "2024-09-10T00:00:00", "level": 2.3 }
+    ],
+    "battery_level": 60,
+    "status": "Faulty"
+  },
+  {
+    "dwlr_id": "DWLR010",
+    "location": "R.K. Beach",
+    "readings": [
+      { "time": "2024-09-10T06:00:00", "level": 6.0 },
+      { "time": "2024-09-10T12:00:00", "level": 6.2 },
+      { "time": "2024-09-10T18:00:00", "level": 6.3 },
+      { "time": "2024-09-10T00:00:00", "level": 6.1 }
+    ],
+    "battery_level": 70,
+    "status": "Normal"
+  },
+  {
+    "dwlr_id": "DWLR011",
+    "location": "Gajapati Nagar",
+    "readings": [
+      { "time": "2024-09-10T06:00:00", "level": 11.0 },
+      { "time": "2024-09-10T12:00:00", "level": 11.1 },
+      { "time": "2024-09-10T18:00:00", "level": 11.2 },
+      { "time": "2024-09-10T00:00:00", "level": 10.9 }
+    ],
+    "battery_level": 88,
+    "status": "Normal"
+  },
+  {
+    "dwlr_id": "DWLR012",
+    "location": "Poorna Market",
+    "readings": [
+      { "time": "2024-09-10T06:00:00", "level": 3.5 },
+      { "time": "2024-09-10T12:00:00", "level": 4.0 },
+      { "time": "2024-09-10T18:00:00", "level": 3.8 },
+      { "time": "2024-09-10T00:00:00", "level": 3.9 }
+    ],
+    "battery_level": 45,
+    "status": "Low Battery"
+  },
+  {
+    "dwlr_id": "DWLR013",
+    "location": "MVP Colony",
+    "readings": [
+      { "time": "2024-09-10T06:00:00", "level": 7.0 },
+      { "time": "2024-09-10T12:00:00", "level": 7.1 },
+      { "time": "2024-09-10T18:00:00", "level": 7.2 },
+      { "time": "2024-09-10T00:00:00", "level": 6.9 }
+    ],
+    "battery_level": 92,
+    "status": "Normal"
+  },
+  {
+    "dwlr_id": "DWLR014",
+    "location": "Kasturba Gandhi Law College",
+    "readings": [
+      { "time": "2024-09-10T06:00:00", "level": 9.5 },
+      { "time": "2024-09-10T12:00:00", "level": 9.6 },
+      { "time": "2024-09-10T18:00:00", "level": 9.4 },
+      { "time": "2024-09-10T00:00:00", "level": 9.7 }
+    ],
+    "battery_level": 99,
+    "status": "Normal"
+  },
+  {
+    "dwlr_id": "DWLR015",
+    "location": "Chowmuhani",
+    "readings": [
+      { "time": "2024-09-10T06:00:00", "level": 8.8 },
+      { "time": "2024-09-10T12:00:00", "level": 8.7 },
+      { "time": "2024-09-10T18:00:00", "level": 8.9 },
+      { "time": "2024-09-10T00:00:00", "level": 8.6 }
+    ],
+    "battery_level": 50,
+    "status": "Low Battery"
+  },
+  {
+    "dwlr_id": "DWLR016",
+    "location": "Vishakapatnam Port",
+    "readings": [
+      { "time": "2024-09-10T06:00:00", "level": 14.0 },
+      { "time": "2024-09-10T12:00:00", "level": 14.2 },
+      { "time": "2024-09-10T18:00:00", "level": 14.3 },
+      { "time": "2024-09-10T00:00:00", "level": 14.1 }
+    ],
+    "battery_level": 80,
+    "status": "Normal"
+  },
+  {
+    "dwlr_id": "DWLR017",
+    "location": "Ramakrishna Beach",
+    "readings": [
+      { "time": "2024-09-10T06:00:00", "level": 6.5 },
+      { "time": "2024-09-10T12:00:00", "level": 6.3 },
+      { "time": "2024-09-10T18:00:00", "level": 6.7 },
+      { "time": "2024-09-10T00:00:00", "level": 6.6 }
+    ],
+    "battery_level": 90,
+    "status": "Normal"
+  },
+  {
+    "dwlr_id": "DWLR018",
+    "location": "Dondaparthy",
+    "readings": [
+      { "time": "2024-09-10T06:00:00", "level": 15.0 },
+      { "time": "2024-09-10T12:00:00", "level": 15.2 },
+      { "time": "2024-09-10T18:00:00", "level": 15.3 },
+      { "time": "2024-09-10T00:00:00", "level": 15.1 }
+    ],
+    "battery_level": 68,
+    "status": "Normal"
+  },
+  {
+    "dwlr_id": "DWLR019",
+    "location": "Madhurawada",
+    "readings": [
+      { "time": "2024-09-10T06:00:00", "level": 13.0 },
+      { "time": "2024-09-10T12:00:00", "level": 12.5 },
+      { "time": "2024-09-10T18:00:00", "level": 12.7 },
+      { "time": "2024-09-10T00:00:00", "level": 12.9 }
+    ],
+    "battery_level": 70,
+    "status": "Normal"
+  },
+  {
+    "dwlr_id": "DWLR020",
+    "location": "Indira Gandhi Zoological Park",
+    "readings": [
+      { "time": "2024-09-10T06:00:00", "level": 6.0 },
+      { "time": "2024-09-10T12:00:00", "level": 6.5 },
+      { "time": "2024-09-10T18:00:00", "level": 6.2 },
+      { "time": "2024-09-10T00:00:00", "level": 6.1 }
+    ],
+    "battery_level": 100,
+    "status": "Normal"
+  }
+]

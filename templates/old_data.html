@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DWLR Historical Data</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Historical Data for DWLR {{ dwlr['dwlr_id'] }}</h1>
+    </header>
+
+    <section class="content">
+      <h2>Location: {{ dwlr['location'] }}</h2>
+      <h3>Battery Level: {{ dwlr['battery_level'] }}%</h3>
+      <h4>Status: {{ dwlr['status'] }}</h4>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Water Level</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for reading in dwlr['readings'] %}
+          <tr>
+            <td>{{ reading['time'] }}</td>
+            <td>
+              {% if reading['level'] %} {{ reading['level'] }} {% else %}
+              Invalid Data {% endif %}
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </section>
+  </body>
+</html>
